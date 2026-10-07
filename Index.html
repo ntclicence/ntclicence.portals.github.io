@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghana Teachér Licensure Examination Portal</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:system-ui,sans-serif;background:#f1f3f6;color:#111}
+  /* Top bar like in your screenshot */
+  .topbar{background:white;padding:12px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #e5e7eb;position:sticky;top:0}
+  .topbar img{width:28px;height:28px;border-radius:50%}
+  .topbar span{font-weight:600;font-size:15px}
+  
+  .container{max-width:420px;margin:20px auto;padding:0 16px}
+  .card{background:white;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.08)}
+  
+  /* Hero with dark overlay like NTC */
+  .hero{
+    position:relative;
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') center/cover;
+    color:white;
+    text-align:center;
+    padding:40px 24px 30px;
+  }
+  .hero .logo-circle{
+    width:70px;height:70px;background:white;border-radius:50%;
+    margin:0 auto 12px;display:flex;align-items:center;justify-content:center;
+    font-weight:800;color:#111;font-size:12px
+  }
+  .hero h1{font-size:22px;line-height:1.2;margin-bottom:12px}
+  .hero p{font-size:13px;line-height:1.6;opacity:0.9}
+
+  .buttons{padding:20px;display:flex;flex-direction:column;gap:12px}
+  .btn{
+    padding:14px;border-radius:8px;border:none;font-weight:600;font-size:14px;
+    cursor:pointer;text-align:center;text-decoration:none
+  }
+  .btn-blue{background:#1a73e8;color:white}
+  .btn-yellow{background:#f7c600;color:#222}
+  .btn-red{background:#ef2d4e;color:white}
+
+  .notice{padding:20px 20px 24px;background:white}
+  .notice h3{font-size:13px;letter-spacing:0.5px;margin-bottom:8px}
+  .notice p{font-size:13px;color:#444;line-height:1.5}
+
+  footer{text-align:center;padding:20px;font-size:12px;color:#888}
+  footer b{color:#1a73e8}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <img src="https://via.placeholder.com/28" alt="logo">
+  <span>NTC- GTLE</span>
+</div>
+
+<div class="container">
+  <div class="card">
+    <div class="hero">
+      <div class="logo-circle">NTC</div>
+      <h1>National Teaching Councll - GTLE</h1>
+      <p>“The National Teaching Council is mandated by Education Regulatory Bodies Act2020 (Act 1023), section 60(b) to conduct examination for the licensing of persons who successfully complete teacher education programmes. In order to be recognized as a teacher in Ghana, one must pass the Ghana Teacher Licensure Examination (GTLE).”.</p>
+      
+      <div class="buttons" style="padding:24px 0 0 0">
+        <a href="#blog" data="btn btn-blue">------------------------------------------------------------</a>
+        <a href="#work" class="btn btn-yellow">IMPORTANT NOTICE</a>
+        <a href="#waiting" class="btn btn-red">The portal has been closed for GTLE registration for the up-coming batch.</a>
+      </div>
+    </div>
+
+    <div class="notice" id="blog">
+      <h3>LATEST BLOG POSTS</h3>
+      <p><b>Oct 6, 2026:</b> Date for new registrations would soon be communicated to the public.<br>
+      <b>Sep 28:</b>Newer NTC Licensure results are being entered at the moment.<br>
+      <b>Sep 15:</b> Check your results from the NTC portal</p>
+    </div>
+
+    <div class="notice" id="work" style="border-top:1px solid #eee">
+      <h3>Results can be downloaded from the links below.</h3>
+      <p>http://exams.ntc.gov.gh/cert<br>
+      </p>http://exams.ntc.gov.gh/cert_gr?code=a0hrNGZ4aFE3WE51MHZmNhdXY1NpMWExQVZnR2pITHVEUGxKS2x1Q1o2UTO<br>
+      
+    </div>
+
+    <div class="notice" id="contact" style="border-top:1px solid #eee">
+      <h3>IMPORTANT NOTICE</h3>
+      <p>Loading ..............</p>
+    </div>
+  </div>
+
+  <footer>Copyright © 2026 National Teaching Council.</footer>
+</div>
+</body>
+</html>
