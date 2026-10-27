@@ -16,5 +16,7 @@ Solution:
 
 ## What It Found (Real Results)
 [+] Port    80 OPEN -> HTTP/1.0 200 OK   # My own http.server - PROOF it's real
+
 [+] Port   135 OPEN -> (open, no banner) # Windows RPC
+
 [+] Port   445 OPEN -> (open, no banner) # Windows SMB
