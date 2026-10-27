@@ -1,4 +1,4 @@
-# capfit-port-scanner
+Capfit-port-scanner
 
 A fast, banner-grabbing TCP port scanner built in Python — built in Kumasi, GH.
 
